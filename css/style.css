@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+* {
+    color: inherit;
+    text-decoration: none;  
+}
+
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 100px;
+    left: 400px;
+    background-color: red;
+}
+
+
+.child {
+    position: absolute;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+}
